@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--ヘッダーナビゲーション-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./image/tuna.jpeg" alt="GitHub" width="40" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#first">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#second">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#third" >Experienced</a>
+                    </li>
+                    <li class="nav-item2">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mail:g1972041@tcu.ac.jp</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="github">
+                            <a class="nav-link" href="https://github.com/Glico621" target="_blank">
+                                <img src="./image/GitHub.png" alt="GitHub" width="30" height="30">
+                            </a>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--背景画像用クラス-->
+    <div class="background_penguin">
+    </div>
+
+    <h1 class="nameTag">Kogure Takashi</h1>
+
+    <div class="white"></div>
+
+    <div class="box">
+        <div class="midashi">
+            <h2 id="first" class="first">About</h2>
+        </div>
+
+        <div class="about">
+            <div class="about-box"><img src="./image/IMG_2082.jpg" alt="basket" width="200" height="200"></div>
+            <div class="about-box">
+                <div class="about-box-p">
+                    <h1>Kogure Takashi</h1><br>
+                    <h4>出身：東京都</h4>
+                    <h4>高校：東京都立 立川高等学校</h4>
+                    <h4>大学：東京都市大学（旧武蔵工業大学）</h4>
+                    <h4>　　　　　メディア情報学部情報システム学科</h4>
+                    <h4>研究室：大谷研究室（人工知能）</h4>
+                    <h4>趣味：水族館巡り，スポーツ観戦</h4>
+                    <h4>特技：バスケ</h4>
+                    <h4>資格：Iパス，基本情報技術者試験</h4>
+                    <h4>メール：g1972041@tcu.ac.jp</h4>
+                    <h4>GitHub：<a href="https://github.com/Glico621" target="_blank">Glico621</a></h4>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="midashi">
+            <h2 id="second" class="first">Works</h2>
+        </div>
+
+        <div class="works">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/todo2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">todoアプリ</h3>
+                            <p class="card-text">pythonのwebフレームワークを使用したwebアプリケーション</p>
+                            <button type="button" onclick="location.href='./works.html#todo'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/tower2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">都道府県<br>タワーバトル</h5>
+                            <p class="card-text">Unityで制作した某タワーバトルのパロディ</p>
+                            <button type="button" onclick="location.href='./works.html#tower'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/aqua.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">水族館プロジェクト(仮)</h3>
+                            <p class="card-text">魚に強化学習を施し，水槽内を泳がせる，バーチャルな水族館を制作中</p>
+                            <button type="button" onclick="location.href='./works.html#aqua'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">進化計算コンペ</h3>
+                            <p class="card-text">進化計算学会が主催する，進化計算コンペティション2021に4人のグループで参加</p>
+                            <button type="button" onclick="location.href='./works.html#2021'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">研究室内コンペ</h5>
+                            <p class="card-text">進化計算を用いて課題の最適化</p>
+                            <button type="button" onclick="location.href='./works.html#conpe'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">研究室ホームページ</h3>
+                            <p class="card-text">リニューアルのお手伝い</p>
+                            <button type="button" onclick="location.href='./works.html#hp'" class="btn btn-primary">→詳細</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="midashi">
+            <h2 id="third" class="first">Experienced</h2>
+        </div>
+        <div class="works">
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/vsc.svg" width=100px alt="bootstrap"></li>
+                <li class="exp-list"><img src="./image/langs/unity.svg" width=100px alt="css"></li>
+                <li class="exp-list"><img src="./image/langs/github.svg" width=100px alt="js"></li>
+            </ul>
+            <br>
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/c.svg" width=100px alt="c"></li>
+                <li class="exp-list"><img src="./image/langs/cplusplus.svg" width=100px alt="c++"></li>
+                <li class="exp-list"><img src="./image/langs/csharp.svg" width=100px alt="c#"></li>
+                <li class="exp-list"><img src="./image/langs/java.svg" width=100px alt="java"></li>
+                <li class="exp-list"><img src="./image/langs/python.svg" width=100px alt="python"></li>
+                <li class="exp-list"><img src="./image/langs/r.svg" width=100px alt="r"></li>
+            </ul>
+            <br>
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/html5.svg" width=100px alt="html"></li>
+                <li class="exp-list"><img src="./image/langs/css3.svg" width=100px alt="css"></li>
+                <li class="exp-list"><img src="./image/langs/js.svg" width=100px alt="js"></li>
+                <li class="exp-list"><img src="./image/langs/php.svg" width=100px alt="java"></li>
+            </ul>
+            <br>
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/bootstrap.svg" width=100px alt="bootstrap"></li>
+                <li class="exp-list"><img src="./image/langs/flask.svg" width=100px alt="css"></li>
+                <li class="exp-list"><img src="./image/langs/docker.svg" width=100px alt="js"></li>
+                <li class="exp-list"><img src="./image/langs/heroku.svg" width=100px alt="java"></li>
+            </ul>
+            <br>
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/mysql.svg" width=100px alt="bootstrap"></li>
+                <li class="exp-list"><img src="./image/langs/postgresql.svg" width=100px alt="css"></li>
+            </ul>
+            <br>
+            <ul class="exp-list">
+                <li class="exp-list"><img src="./image/langs/jupyter.svg" width=100px alt="bootstrap"></li>
+                <li class="exp-list"><img src="./image/langs/numpy.svg" width=100px alt="css"></li>
+                <li class="exp-list"><img src="./image/langs/pandas.svg" width=100px alt="js"></li>
+                <li class="exp-list"><img src="./image/langs/tensorflow.svg" width=100px alt="java"></li>
+            </ul>
+            <br>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
